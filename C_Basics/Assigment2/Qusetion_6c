@@ -1,0 +1,32 @@
+/*
+ ============================================================================
+ Name        : Qusetion_3.c
+ Author      : Sara Saad
+ Version     :
+ Copyright   : Your copyright notice
+ Description : c Programming to calculate the sum of Nature Numbers
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+	unsigned int Max=0;
+	unsigned int Counter=0;
+	unsigned int Sum=0;
+
+	printf("Enter an integer : ");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%i",&Max);
+
+	for(Counter = 1 ; Counter <= Max ; Counter++)
+	{
+		Sum += Counter;
+	}
+	printf("Sum = %i",Sum);
+
+	return 0;
+}
